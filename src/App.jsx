@@ -3,9 +3,10 @@ import Form from './components/form'
 import { IoMdAdd } from 'react-icons/io'
 import { MdEdit } from 'react-icons/md'
 import { useState } from 'react'
+import UpdateVigencyPDF from './components/updateDocument'
 
 function App() {
-  const [create, setCreate] =useState(true);
+  const [create, setCreate] =useState(false);
 
   return (
     <>
@@ -14,7 +15,7 @@ function App() {
       <button title='Crear' className={`${create ? 'active' : ''}`} onClick={() => setCreate(true)}><IoMdAdd /></button>
     </div>
     {
-      create ? <Form /> : <></>
+      create ? <Form /> : <UpdateVigencyPDF/>
     }
     </>
   )
