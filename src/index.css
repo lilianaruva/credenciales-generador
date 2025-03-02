@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  font-family: 'Poppins', Avenir, Helvetica, Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  background-color: #F2F2F2;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F2F2F2;
+  width: 100vw;
+  height: 100vh;
+  color: #3A4374;
+}
+
+.modal-container {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 2rem;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  width: 45vw;
+}
+
+label {
+  font-weight: bold;
+}  
+
+.lastname-row {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+input {
+  width: 90%;
+}
+
+select {
+  height: 45px;
+  border-radius: 5px;
+  background-color: #F7F8FD;
+  border: 1px solid #F7F8FD;
+  margin: 0.3rem 0 1rem 0;
+  padding-left: 1rem;
+  
+
+  &:active {
+      border: 1px solid #4661E6;
+  }
+
+  option {
+      padding: 1rem;
+
+  }
+}
+
+input {
+  height: 45px;
+  border-radius: 5px;
+  background-color: #F7F8FD;
+  border: 1px solid #F7F8FD;
+  margin: 0.3rem 0 1rem 0;
+  padding-left: 1rem;
+  
+  text-transform: uppercase;
+
+  &:active {
+      border: 1px solid #4661E6;
+
+  }
+}
+
+button {
+  background-color: #AD1FEA;
+  color: #F2F4FE;
+  border-radius: 10px;
+  border: 1px solid #AD1FEA;
+  height: 44px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: 0;
+  
+  font-weight: bold;
+  font-size: 16px;
+
+  &:hover {
+      cursor: pointer;
+      background-color: #C75AF6;
+  }
+}
