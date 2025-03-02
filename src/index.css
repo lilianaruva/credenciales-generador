@@ -73,7 +73,6 @@ input {
   border: 1px solid #F7F8FD;
   margin: 0.3rem 0 1rem 0;
   padding-left: 1rem;
-  
   text-transform: uppercase;
 
   &:active {
@@ -83,10 +82,10 @@ input {
 }
 
 button {
-  background-color: #AD1FEA;
+  background-color: rgb(63, 94, 251);
   color: #F2F4FE;
   border-radius: 10px;
-  border: 1px solid #AD1FEA;
+  border: 1px solid rgb(63, 94, 251);
   height: 44px;
   width: 150px;
   margin-left: auto;
@@ -97,6 +96,6 @@ button {
 
   &:hover {
       cursor: pointer;
-      background-color: #C75AF6;
+      background-color: rgb(32, 61, 206)
   }
 }
